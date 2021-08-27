@@ -1,8 +1,8 @@
 <div align="center">
   
-# express-redirect-file
+# express-redirection
 
-[![Node CI](https://github.com/BetaHuhn/express-redirect-file/workflows/Node%20CI/badge.svg)](https://github.com/BetaHuhn/express-redirect-file/actions?query=workflow%3A%22Node+CI%22) [![Release CI](https://github.com/BetaHuhn/express-redirect-file/workflows/Release%20CI/badge.svg)](https://github.com/BetaHuhn/express-redirect-file/actions?query=workflow%3A%22Release+CI%22) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/express-redirect-file/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/express-redirect-file)
+[![Node CI](https://github.com/BetaHuhn/express-redirection/workflows/Node%20CI/badge.svg)](https://github.com/BetaHuhn/express-redirection/actions?query=workflow%3A%22Node+CI%22) [![Release CI](https://github.com/BetaHuhn/express-redirection/workflows/Release%20CI/badge.svg)](https://github.com/BetaHuhn/express-redirection/actions?query=workflow%3A%22Release+CI%22) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/express-redirection/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/express-redirection)
 
 Define express redirects with a JSON file similar to vercel.json
 
@@ -15,7 +15,7 @@ Create a redirect config:
 ```json
 [
     { "src": "/user", "dest": "/api/user" },
-    { "src": "/view-source", "dest": "https://github.com/betahuhn/express-redirect-file", "statusCode": 308 },
+    { "src": "/view-source", "dest": "https://github.com/betahuhn/express-redirection", "statusCode": 308 },
     {
         "src": "/*",
         "has": {
@@ -33,7 +33,7 @@ Use the middleware:
 
 ```js
 const express = require('express')
-const { redirectMiddleware } = require('express-redirect-file')
+const { redirectMiddleware } = require('express-redirection')
 
 const app = express()
 

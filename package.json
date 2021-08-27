@@ -1,5 +1,5 @@
 {
-  "name": "express-redirect-file",
+  "name": "express-redirection",
   "version": "0.1.0",
   "description": "Define express redirects with a JSON file similar to vercel.json",
   "main": "./lib/index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BetaHuhn/express-redirect-file.git"
+    "url": "git+https://github.com/BetaHuhn/express-redirection.git"
   },
   "bugs": {
-    "url": "https://github.com/BetaHuhn/express-redirect-file/issues"
+    "url": "https://github.com/BetaHuhn/express-redirection/issues"
   },
-  "homepage": "https://github.com/BetaHuhn/express-redirect-file#readme",
+  "homepage": "https://github.com/BetaHuhn/express-redirection#readme",
   "author": "Maximilian Schiller <schiller@mxis.ch>",
   "license": "MIT",
   "keywords": [
