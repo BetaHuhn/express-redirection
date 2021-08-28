@@ -1,7 +1,7 @@
 {
   "name": "express-redirection",
   "version": "0.1.0",
-  "description": "Define express redirects with a JSON file similar to vercel.json",
+  "description": "Quick redirect configuration for Express.js",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -25,7 +25,10 @@
   "license": "MIT",
   "keywords": [
     "nodejs",
-    "typescript"
+    "typescript",
+    "express",
+    "middleware",
+    "redirects"
   ],
   "dependencies": {
     "cookie": "^0.4.1",
