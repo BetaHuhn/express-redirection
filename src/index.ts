@@ -2,8 +2,9 @@ import path from 'path'
 import Express from 'express'
 import minimatch from 'minimatch'
 import cookie from 'cookie'
+import { match, compile } from 'path-to-regexp'
 
-interface RedirectItem {
+interface foundRedirectItem {
 	src: string
 	dest: string
 	statusCode?: number
@@ -18,9 +19,9 @@ interface RedirectItem {
 	}
 }
 
-type RedirectConfig = RedirectItem[]
+type foundRedirectConfig = foundRedirectItem[]
 
-const parseConfig = (config: RedirectConfig) => {
+const parseConfig = (config: foundRedirectConfig) => {
 	return config.map((item) => {
 		const requiredOptions = [ 'src', 'dest' ]
 		requiredOptions.forEach((option) => {
@@ -49,7 +50,7 @@ const checkValue = (valueToCheck: any, value: string) => {
 }
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const redirectMiddleware = (rawConfig?: RedirectConfig) => {
+const foundRedirectMiddleware = (rawConfig?: foundRedirectConfig) => {
 	if (rawConfig === undefined) {
 		const configPath = path.resolve(require.main?.path as string, 'redirects.json')
 		rawConfig = require(configPath)
@@ -59,21 +60,27 @@ export const redirectMiddleware = (rawConfig?: RedirectConfig) => {
 
 	return (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
 		const requestPath = req.baseUrl + req.path
-		const match = config.find((item) => item.src === requestPath || minimatch(requestPath, item.src))
 
-		if (!match) return next()
+		const foundRedirect = config.find((item) => {
+			const runMatch = match(item.src, { decode: decodeURIComponent })
+			const matched: any = runMatch(requestPath)
 
-		if (match.method !== undefined) {
-			const valid = req.method === match.method
+			return matched !== false
+		})
+
+		if (!foundRedirect) return next()
+
+		if (foundRedirect.method !== undefined) {
+			const valid = req.method === foundRedirect.method
 			if (!valid) return next()
 		}
 
-		if (match.protocol !== undefined) {
-			const valid = req.protocol === match.protocol
+		if (foundRedirect.protocol !== undefined) {
+			const valid = req.protocol === foundRedirect.protocol
 			if (!valid) return next()
 		}
 
-		const has = match.has
+		const has = foundRedirect.has
 		if (has !== undefined) {
 			if (has.ip !== undefined) {
 				const valueToCheck = req.ip
@@ -116,12 +123,25 @@ export const redirectMiddleware = (rawConfig?: RedirectConfig) => {
 					if (!valid) return next()
 				}
 			}
-
-			return res.redirect(match.statusCode, match.dest)
 		}
 
-		res.redirect(match.statusCode, match.dest)
+		const runMatch = match(foundRedirect.src, { decode: decodeURIComponent })
+		const matched: any = runMatch(requestPath)
+
+		if (foundRedirect.dest.startsWith('https://')) {
+			const { origin, pathname } = new URL(foundRedirect.dest)
+			const toPath = compile(pathname, { encode: encodeURIComponent })
+			const result = `${ origin }${ toPath(matched.params) }`
+
+			return res.redirect(foundRedirect.statusCode, decodeURIComponent(result))
+		}
+
+		const toPath = compile(foundRedirect.dest, { encode: encodeURIComponent })
+		const result = toPath(matched.params)
+
+		return res.redirect(foundRedirect.statusCode, decodeURIComponent(result))
 	}
 }
 
-export default redirectMiddleware
+export default foundRedirectMiddleware
+module.exports = foundRedirectMiddleware

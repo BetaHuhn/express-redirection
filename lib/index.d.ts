@@ -1,5 +1,5 @@
 import Express from 'express';
-interface RedirectItem {
+interface foundRedirectItem {
     src: string;
     dest: string;
     statusCode?: number;
@@ -19,6 +19,6 @@ interface RedirectItem {
         ip?: string;
     };
 }
-declare type RedirectConfig = RedirectItem[];
-export declare const redirectMiddleware: (rawConfig?: RedirectConfig | undefined) => (req: Express.Request, res: Express.Response, next: Express.NextFunction) => void;
-export default redirectMiddleware;
+declare type foundRedirectConfig = foundRedirectItem[];
+declare const foundRedirectMiddleware: (rawConfig?: foundRedirectConfig | undefined) => (req: Express.Request, res: Express.Response, next: Express.NextFunction) => void;
+export default foundRedirectMiddleware;
