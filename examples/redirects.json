@@ -1,0 +1,14 @@
+[
+    { "src": "/user", "dest": "/api/user" },
+    { "src": "/view-source", "dest": "https://github.com/betahuhn/express-redirection", "statusCode": 308 },
+    { 
+        "src": "/:path((?!uk/).*)",
+        "dest": "/uk/:path*",
+        "has": {
+            "header": {
+                "cf-ipcountry": "GB"
+            }
+        },
+        "statusCode": 307
+    }
+]
