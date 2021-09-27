@@ -1,3 +1,14 @@
+## [v1.0.5] - 2021-09-27
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.5) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.4...v1.0.5) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.5) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.5.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.5.tar.gz))
+
+### Dependency updates
+
+- [`68306b1`](https://github.com/BetaHuhn/express-redirection/commit/68306b1)  Bump @types/node from 16.9.2 to 16.9.4
+- [`a9dd6af`](https://github.com/BetaHuhn/express-redirection/commit/a9dd6af)  Bump @typescript-eslint/eslint-plugin from 4.31.1 to 4.31.2
+- [`bb45941`](https://github.com/BetaHuhn/express-redirection/commit/bb45941)  Bump @typescript-eslint/parser from 4.31.1 to 4.31.2
+- [`7e3dac4`](https://github.com/BetaHuhn/express-redirection/commit/7e3dac4)  Bump @types/node from 16.9.4 to 16.9.6
+
 ## [v1.0.4] - 2021-09-20
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.4) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.3...v1.0.4) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.4) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.4.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.4.tar.gz))
