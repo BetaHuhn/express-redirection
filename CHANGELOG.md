@@ -1,3 +1,12 @@
+## [v1.0.10] - 2021-11-01
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.10) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.9...v1.0.10) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.10) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.10.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.10.tar.gz))
+
+### Dependency updates
+
+- [`d1b6c97`](https://github.com/BetaHuhn/express-redirection/commit/d1b6c97)  Bump @types/node from 16.11.3 to 16.11.4
+- [`2c7f646`](https://github.com/BetaHuhn/express-redirection/commit/2c7f646)  Bump @types/node from 16.11.4 to 16.11.6
+
 ## [v1.0.9] - 2021-10-25
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.9) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.8...v1.0.9) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.9) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.9.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.9.tar.gz))
