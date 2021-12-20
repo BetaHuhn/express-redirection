@@ -1,3 +1,12 @@
+## [v1.0.16] - 2021-12-20
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.16) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.15...v1.0.16) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.16) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.16.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.16.tar.gz))
+
+### Dependency updates
+
+- [`83480aa`](https://github.com/BetaHuhn/express-redirection/commit/83480aa)  Bump typescript from 4.5.3 to 4.5.4
+- [`73e37c4`](https://github.com/BetaHuhn/express-redirection/commit/73e37c4)  Bump @types/node from 16.11.12 to 16.11.13
+
 ## [v1.0.15] - 2021-12-13
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.15) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.14...v1.0.15) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.15) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.15.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.15.tar.gz))
