@@ -1,3 +1,11 @@
+## [v1.0.17] - 2021-12-27
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.17) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.16...v1.0.17) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.17) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.17.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.17.tar.gz))
+
+### Dependency updates
+
+- [`1f664da`](https://github.com/BetaHuhn/express-redirection/commit/1f664da)  Bump tsc-watch from 4.2.9 to 4.6.0
+
 ## [v1.0.16] - 2021-12-20
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.16) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.15...v1.0.16) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.16) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.16.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.16.tar.gz))
