@@ -1,3 +1,11 @@
+## [v1.0.20] - 2022-02-14
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.20) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.19...v1.0.20) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.20) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.20.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.20.tar.gz))
+
+### Dependency updates
+
+- [`cec0e8a`](https://github.com/BetaHuhn/express-redirection/commit/cec0e8a)  Bump minimatch from 3.0.4 to 3.0.5
+
 ## [v1.0.19] - 2022-02-07
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.19) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.18...v1.0.19) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.19) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.19.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.19.tar.gz))
