@@ -31,7 +31,7 @@
     "redirects"
   ],
   "dependencies": {
-    "cookie": "^0.4.1",
+    "cookie": "^0.5.0",
     "minimatch": "^3.0.4",
     "path-to-regexp": "^6.2.0"
   },
