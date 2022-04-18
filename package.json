@@ -1,6 +1,6 @@
 {
   "name": "express-redirection",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Quick redirect configuration for Express.js",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

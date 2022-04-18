@@ -1,3 +1,12 @@
+## [v1.0.25] - 2022-04-18
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.25) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.24...v1.0.25) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.25) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.25.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.25.tar.gz))
+
+### Dependency updates
+
+- [`80fdc21`](https://github.com/BetaHuhn/express-redirection/commit/80fdc21)  Bump cookie from 0.4.2 to 0.5.0
+- [`d8d2498`](https://github.com/BetaHuhn/express-redirection/commit/d8d2498)  Bump @types/cookie from 0.4.1 to 0.5.0
+
 ## [v1.0.24] - 2022-03-28
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.24) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.23...v1.0.24) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.24) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.24.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.24.tar.gz))
