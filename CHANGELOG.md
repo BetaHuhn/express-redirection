@@ -1,3 +1,11 @@
+## [v1.0.28] - 2022-05-16
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.28) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.27...v1.0.28) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.28) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.28.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.28.tar.gz))
+
+### Dependency updates
+
+- [`92a82f9`](https://github.com/BetaHuhn/express-redirection/commit/92a82f9)  Bump path-to-regexp from 6.2.0 to 6.2.1
+
 ## [v1.0.27] - 2022-05-02
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.27) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.26...v1.0.27) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.27) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.27.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.27.tar.gz))
