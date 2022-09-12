@@ -1,3 +1,11 @@
+## [v1.0.33] - 2022-09-12
+
+[Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.33) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.32...v1.0.33) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.33) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.33.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.33.tar.gz))
+
+### Dependency updates
+
+- [`a84d800`](https://github.com/BetaHuhn/express-redirection/commit/a84d800)  Bump typescript from 4.8.2 to 4.8.3
+
 ## [v1.0.32] - 2022-08-29
 
 [Release notes](https://github.com/BetaHuhn/express-redirection/releases/tag/v1.0.32) · [Compare](https://github.com/BetaHuhn/express-redirection/compare/v1.0.31...v1.0.32) · [Tag](https://github.com/BetaHuhn/express-redirection/tree/v1.0.32) · Archive ([zip](https://github.com/BetaHuhn/express-redirection/archive/v1.0.32.zip) · [tar.gz](https://github.com/BetaHuhn/express-redirection/archive/v1.0.32.tar.gz))
